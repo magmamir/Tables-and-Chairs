@@ -1,1 +1,0 @@
-tellraw @p {"text":"This Isn't a Function, It's for Tab Completion ","color":"yellow"}
