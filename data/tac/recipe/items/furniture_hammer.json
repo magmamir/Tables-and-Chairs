@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "custom_fence",
+  "pattern": [
+    "=|=",
+    " | "
+  ],
+  "key": {
+    "=": {
+      "item": "minecraft:iron_ingot"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 9002000,
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      },
+      "minecraft:custom_data": "{Tags:[chk.furniture_hammer]}",
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "tac.hammer.damage",
+          "type": "minecraft:generic.attack_damage",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+	  "minecraft:item_name": "{\"translate\":\"item.tac.hammer\",\"color\":\"white\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tac_chk\",\"color\":\"#732012\",\"italic\":false}"
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 9002000,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": true
+                },
+                "minecraft:custom_data": "{
+                "minecraft:custom_data": "{Tags:[chk.furniture_hammer]}"},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "tac.hammer.damage",
+                    "type": "minecraft:generic.attack_damage",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "translate": "item.tac.hammer",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "pack.tac_chk",
+                  "color": "#732012",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

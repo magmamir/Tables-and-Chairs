@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_trapdoor",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 9006200
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Tags:[chk.trophy,chk.trophy.creeper]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "translate": "item.trophy.creeper",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "pack.mob_trophy",
+                  "color": "#732012",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

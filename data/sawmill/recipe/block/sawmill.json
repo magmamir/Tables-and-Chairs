@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "custom_block",
+  "pattern": [
+    " = ",
+    " | "
+  ],
+  "key": {
+    "=": {
+      "item": "minecraft:iron_ingot"
+    },
+    "|": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "minecraft:jungle_trapdoor",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 9001501,
+      "minecraft:custom_data": "{Tags:[chk.sawmill,tac.sawmill]}",
+      "minecraft:item_name": "{\"translate\":\"item.tac.sawmill\",\"color\":\"white\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"translate\":\"pack.tac_chk\",\"color\":\"#732012\",\"italic\":false}"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+data modify entity @s ArmorItems[3] set value {components:{"minecraft:custom_model_data":9001000},id:"minecraft:jungle_trapdoor",count:1}
+#execute if score @p[distance=0..6,scores={chk.style=0..}] chk.style = Chair.style.basic chk.style run tag @s add chk.chair.basic
